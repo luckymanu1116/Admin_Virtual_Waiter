@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "222653748395",
+    "firebase_url": "https://admin-virtual-waiter-71fbe.firebaseio.com",
+    "project_id": "admin-virtual-waiter-71fbe",
+    "storage_bucket": "admin-virtual-waiter-71fbe.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:222653748395:android:8fa95f015808e7ad6893ee",
+        "android_client_info": {
+          "package_name": "com.example.adminvirtualwaiter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "222653748395-s0ke01pnl30dhp61jcp04div591g50vp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXu5M9wRgv6yIxrrdq7bxMnf1wYznYLoA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "222653748395-s0ke01pnl30dhp61jcp04div591g50vp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

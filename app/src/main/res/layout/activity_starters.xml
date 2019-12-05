@@ -1,0 +1,80 @@
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="8dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/dessertimgcard">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_height="180dp"
+            android:id="@+id/starterimg"
+            android:src="@drawable/starters">
+        </ImageView>
+    </com.google.android.material.card.MaterialCardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/card2"
+        android:layout_centerInParent="true"
+        app:cardCornerRadius="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        app:cardElevation="5dp"
+        android:backgroundTint="#899b9c">
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:paddingLeft="6dp"
+            android:paddingRight="6dp">
+
+            <EditText
+                android:id="@+id/itemname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Item Name to Add"
+                android:imeOptions="actionNext"
+                android:paddingLeft="6dp"
+                android:singleLine="true"
+                android:textSize="14sp" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="140dp"
+            android:paddingLeft="6dp"
+            android:paddingRight="6dp">
+
+            <EditText
+                android:id="@+id/cost"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Cost of the Item"
+                android:imeOptions="actionNext"
+                android:inputType="number"
+                android:maxLines="6"
+                android:paddingLeft="6dp"
+                android:singleLine="true"
+                android:textSize="14sp" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+        <Button
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shapelogin"
+            android:layout_marginTop="220dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginBottom="20dp"
+            android:text="Add Item"
+            android:id="@+id/Addstartersitem">
+        </Button>
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

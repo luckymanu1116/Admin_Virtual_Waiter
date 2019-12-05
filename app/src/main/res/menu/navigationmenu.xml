@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" >
+
+    <item  android:id="@+id/dashboard"
+        android:title="Dashboard"
+        android:icon="@drawable/ic_home_black_24dp"/>
+    <item  android:id="@+id/AddItems"
+        android:title="Add Items"
+        android:icon="@drawable/ic_assignment_black_24dp"/>
+    <item  android:id="@+id/Feedback"
+        android:title="Feedback!"
+        android:icon="@drawable/feedback"
+        app:showAsAction="withText"/>
+    <item  android:id="@+id/Profiel"
+        android:title="Profile"
+        android:icon="@drawable/ic_account_circle_black_24dp"
+        app:showAsAction="withText"/>
+
+</menu>
