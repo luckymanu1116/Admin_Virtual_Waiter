@@ -46,7 +46,7 @@ public class NonVegItems extends AppCompatActivity {
                 progress.setMessage("Please Wait"); // Setting Message
                 progress.setTitle("Adding Item"); // Setting Title
                 progress.setProgressStyle(ProgressDialog.STYLE_SPINNER); // Progress Dialog Style Spinner
-                //progress.show(); // Display Progress Dialog
+                // progress.show(); // Display Progress Dialog
                 progress.setCancelable(false);
                 new Thread(new Runnable() {
                     public void run() {
